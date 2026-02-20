@@ -6,9 +6,13 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "drizzle-orm": "^0.45.1",
+    "drizzle-zod": "^0.8.3",
+    "elysia": "latest",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.4.3",
     "bun-types": "latest"
   },
   "module": "src/index.js"
