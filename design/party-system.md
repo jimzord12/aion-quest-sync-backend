@@ -11,7 +11,7 @@
 
 The Party System enables players to form groups for coordinated daily quest clearing in AION Classic EU's Tiamaranta Mesa. It mirrors AION's in-game party mechanics to maintain intuitive UX for players already familiar with the game.
 
-A **Party** is a live group of 1–6 players who have agreed to run together for a specific session. **Invites** are asynchronous one-way requests that allow players to join existing parties. The two systems are loosely coupled, allowing flexible social dynamics without rigid state machines.
+A **Party** is a live group of 2–6 players who have agreed to run together for a specific session. **Invites** are asynchronous one-way requests that allow players to join existing parties. The two systems are loosely coupled, allowing flexible social dynamics without rigid state machines.
 
 ---
 
@@ -23,7 +23,7 @@ A **Party** is a live group of 1–6 players who have agreed to run together for
 
 3. **Flat privilege model**: All party members have equal rights. Any member can invite others. No member can remove another. Social conflicts are resolved by leaving and reforming.
 
-4. **Minimal state**: The party is "alive" if it exists and has 1–6 members. No status enums. All business rules are derived from member count and timestamps.
+4. **Minimal state**: The party is "alive" if it exists and has 2–6 members. No status enums. All business rules are derived from member count and timestamps.
 
 5. **Transparent visibility**: When a player is in a party, they're visible to others as "In Party" but hidden from the LFG matching pool.
 
