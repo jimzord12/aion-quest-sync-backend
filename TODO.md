@@ -2,7 +2,7 @@
 
 ### General Setup
 
-- [ ] Resutl
+- [ ] Learn + Use `neverthrow` for better error handling in TypeScript.
 
 ### Persistence Layer Working
 
